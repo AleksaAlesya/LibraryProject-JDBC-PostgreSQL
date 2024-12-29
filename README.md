@@ -49,7 +49,7 @@ jdbc:postgresql://localhost:5432/library_db
 требуется.
 
 
-Используемые технолоигии, фреймворки, библиотеки:
+ Используемые технолоигии, фреймворки, библиотеки:
 сборка Maven Java 17, Spring 6, Spring core, Spring context, SpringWeb, SpringWebMVC, Thymeleaf, Postgresql, JDBC, Jdbc Template, Jakarta, Hibernate-validator, Junit
 
 Проект запускается через ТомКат 11 http://localhost:8080/library
@@ -57,20 +57,20 @@ jdbc:postgresql://localhost:5432/library_db
 Технологии, библиотеки и frameworks: сборка Maven Java 17 Spring 6 Spring core Spring context - спринг контейнер Spring web Spring webMVC Spring-jdbc(JDBC Template) - связь с БД postgresql Thymeleaf - шаблонизатор html страниц Hibernate-validator jakarta (для валидации)
 
 Главная страница
---http://localhost:8080/people
+---http://localhost:8080/people
 
 Вывести список
---http://localhost:8080/people
---http://localhost:8080/books
+---http://localhost:8080/people
+---http://localhost:8080/books
 
 Показать информацию по id
---http://localhost:8080/people/2
---http://localhost:8080/books/2
+---http://localhost:8080/people/2
+---http://localhost:8080/books/2
 
 Создание нового
---http://localhost:8080/people/new
---http://localhost:8080/books/new
+---http://localhost:8080/people/new
+---http://localhost:8080/books/new
 
 Редактирование
---http://localhost:8080/people/2/edit
---http://localhost:8080/books/2/edit
+---http://localhost:8080/people/2/edit
+---http://localhost:8080/books/2/edit
